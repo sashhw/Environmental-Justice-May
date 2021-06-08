@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90196AD265D96FB0033D5CA /* ejTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90196AC265D96FB0033D5CA /* ejTitle.swift */; };
+		D921C85C266AAD0100605956 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921C85B266AAD0100605956 /* MapView.swift */; };
+		D921C85E266AAE9200605956 /* USCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921C85D266AAE9200605956 /* USCases.swift */; };
+		D921C860266AC44F00605956 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D921C85F266AC44F00605956 /* GoogleService-Info.plist */; };
+		D954B5A5266E718600782ED5 /* CaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954B5A4266E718500782ED5 /* CaseRepository.swift */; };
+		D99DF5FA266FCA130058A297 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DF5F9266FCA130058A297 /* ImagePicker.swift */; };
+		D9A1413C265D8DF20068E1DB /* Environmental_Justice_MayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1413B265D8DF20068E1DB /* Environmental_Justice_MayApp.swift */; };
+		D9A1413E265D8DF20068E1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1413D265D8DF20068E1DB /* ContentView.swift */; };
+		D9A14140265D8DF60068E1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A1413F265D8DF60068E1DB /* Assets.xcassets */; };
+		D9A14143265D8DF60068E1DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A14142265D8DF60068E1DB /* Preview Assets.xcassets */; };
+		D9A1414C265D90B30068E1DB /* ejDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1414B265D90B30068E1DB /* ejDefinition.swift */; };
+		D9DD50CA266D1E0A00F66C97 /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50C9266D1E0A00F66C97 /* Cases.swift */; };
+		D9DD50CD266D28D100F66C97 /* CaseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50CC266D28D100F66C97 /* CaseListViewModel.swift */; };
+		D9DD50CF266D28E100F66C97 /* CaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50CE266D28E100F66C97 /* CaseCellViewModel.swift */; };
+		D9DD50D3266D293800F66C97 /* Delano.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D2266D293800F66C97 /* Delano.swift */; };
+		D9DD50D5266D293E00F66C97 /* LosAlamos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D4266D293E00F66C97 /* LosAlamos.swift */; };
+		D9DD50D7266D294400F66C97 /* Hawkins.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D6266D294400F66C97 /* Hawkins.swift */; };
+		D9DD50D9266D296300F66C97 /* NorthRiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D8266D296300F66C97 /* NorthRiver.swift */; };
+		D9DD50DB266D297B00F66C97 /* WarrenCounty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */; };
+		E74EDE1D089F7B786CC1392D /* Pods_Environmental_Justice_May.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21002AE5418CC20B39171F2A /* Pods_Environmental_Justice_May.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21002AE5418CC20B39171F2A /* Pods_Environmental_Justice_May.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Environmental_Justice_May.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE438ECB448483FEA1ABE9 /* Pods-Environmental Justice May.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environmental Justice May.release.xcconfig"; path = "Target Support Files/Pods-Environmental Justice May/Pods-Environmental Justice May.release.xcconfig"; sourceTree = "<group>"; };
+		5687D5EDB59C8BEA3468634E /* Pods-Environmental Justice May.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Environmental Justice May.debug.xcconfig"; path = "Target Support Files/Pods-Environmental Justice May/Pods-Environmental Justice May.debug.xcconfig"; sourceTree = "<group>"; };
+		D90196AC265D96FB0033D5CA /* ejTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejTitle.swift; sourceTree = "<group>"; };
+		D921C85B266AAD0100605956 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D921C85D266AAE9200605956 /* USCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USCases.swift; sourceTree = "<group>"; };
+		D921C85F266AC44F00605956 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D954B5A4266E718500782ED5 /* CaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseRepository.swift; sourceTree = "<group>"; };
+		D99DF5F9266FCA130058A297 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D9A14138265D8DF20068E1DB /* Environmental Justice May.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Environmental Justice May.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A1413B265D8DF20068E1DB /* Environmental_Justice_MayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environmental_Justice_MayApp.swift; sourceTree = "<group>"; };
+		D9A1413D265D8DF20068E1DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9A1413F265D8DF60068E1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A14142265D8DF60068E1DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9A14144265D8DF60068E1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9A1414B265D90B30068E1DB /* ejDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejDefinition.swift; sourceTree = "<group>"; };
+		D9DD50C9266D1E0A00F66C97 /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
+		D9DD50CC266D28D100F66C97 /* CaseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseListViewModel.swift; sourceTree = "<group>"; };
+		D9DD50CE266D28E100F66C97 /* CaseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseCellViewModel.swift; sourceTree = "<group>"; };
+		D9DD50D2266D293800F66C97 /* Delano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delano.swift; sourceTree = "<group>"; };
+		D9DD50D4266D293E00F66C97 /* LosAlamos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosAlamos.swift; sourceTree = "<group>"; };
+		D9DD50D6266D294400F66C97 /* Hawkins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawkins.swift; sourceTree = "<group>"; };
+		D9DD50D8266D296300F66C97 /* NorthRiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthRiver.swift; sourceTree = "<group>"; };
+		D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrenCounty.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A14135265D8DF20068E1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74EDE1D089F7B786CC1392D /* Pods_Environmental_Justice_May.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A382189A4467E5D8207364B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5687D5EDB59C8BEA3468634E /* Pods-Environmental Justice May.debug.xcconfig */,
+				39AE438ECB448483FEA1ABE9 /* Pods-Environmental Justice May.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B101146441FC9D9F204479F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21002AE5418CC20B39171F2A /* Pods_Environmental_Justice_May.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D954B5A6266E718B00782ED5 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D954B5A4266E718500782ED5 /* CaseRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D9A1412F265D8DF20068E1DB = {
+			isa = PBXGroup;
+			children = (
+				D9A1413A265D8DF20068E1DB /* Environmental Justice May */,
+				D9A14139265D8DF20068E1DB /* Products */,
+				1A382189A4467E5D8207364B /* Pods */,
+				7B101146441FC9D9F204479F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A14139265D8DF20068E1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A14138265D8DF20068E1DB /* Environmental Justice May.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A1413A265D8DF20068E1DB /* Environmental Justice May */ = {
+			isa = PBXGroup;
+			children = (
+				D954B5A6266E718B00782ED5 /* Repositories */,
+				D9A1414E265D90B90068E1DB /* Model */,
+				D9DD50CB266D28BC00F66C97 /* ViewModel */,
+				D9A1414F265D90D70068E1DB /* View */,
+				D9A1413B265D8DF20068E1DB /* Environmental_Justice_MayApp.swift */,
+				D9A1413F265D8DF60068E1DB /* Assets.xcassets */,
+				D921C85F266AC44F00605956 /* GoogleService-Info.plist */,
+				D9A14144265D8DF60068E1DB /* Info.plist */,
+				D9A14141265D8DF60068E1DB /* Preview Content */,
+			);
+			path = "Environmental Justice May";
+			sourceTree = "<group>";
+		};
+		D9A14141265D8DF60068E1DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9A14142265D8DF60068E1DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9A1414E265D90B90068E1DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1414B265D90B30068E1DB /* ejDefinition.swift */,
+				D9DD50C9266D1E0A00F66C97 /* Cases.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9A1414F265D90D70068E1DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9A1413D265D8DF20068E1DB /* ContentView.swift */,
+				D921C85D266AAE9200605956 /* USCases.swift */,
+				D9DD50D4266D293E00F66C97 /* LosAlamos.swift */,
+				D9DD50D2266D293800F66C97 /* Delano.swift */,
+				D9DD50D6266D294400F66C97 /* Hawkins.swift */,
+				D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */,
+				D9DD50D8266D296300F66C97 /* NorthRiver.swift */,
+				D921C85B266AAD0100605956 /* MapView.swift */,
+				D90196AC265D96FB0033D5CA /* ejTitle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D9DD50CB266D28BC00F66C97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D9DD50CC266D28D100F66C97 /* CaseListViewModel.swift */,
+				D9DD50CE266D28E100F66C97 /* CaseCellViewModel.swift */,
+				D99DF5F9266FCA130058A297 /* ImagePicker.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A14137265D8DF20068E1DB /* Environmental Justice May */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A14147265D8DF60068E1DB /* Build configuration list for PBXNativeTarget "Environmental Justice May" */;
+			buildPhases = (
+				33EFA748DBC22E26AC244AD7 /* [CP] Check Pods Manifest.lock */,
+				D9A14134265D8DF20068E1DB /* Sources */,
+				D9A14135265D8DF20068E1DB /* Frameworks */,
+				D9A14136265D8DF20068E1DB /* Resources */,
+				187ABAA43A8BE4115F8A8328 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Environmental Justice May";
+			productName = "Environmental Justice May";
+			productReference = D9A14138265D8DF20068E1DB /* Environmental Justice May.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A14130265D8DF20068E1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D9A14137265D8DF20068E1DB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D9A14133265D8DF20068E1DB /* Build configuration list for PBXProject "Environmental Justice May" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9A1412F265D8DF20068E1DB;
+			productRefGroup = D9A14139265D8DF20068E1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A14137265D8DF20068E1DB /* Environmental Justice May */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A14136265D8DF20068E1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A14143265D8DF60068E1DB /* Preview Assets.xcassets in Resources */,
+				D9A14140265D8DF60068E1DB /* Assets.xcassets in Resources */,
+				D921C860266AC44F00605956 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187ABAA43A8BE4115F8A8328 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Environmental Justice May/Pods-Environmental Justice May-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Environmental Justice May/Pods-Environmental Justice May-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Environmental Justice May/Pods-Environmental Justice May-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33EFA748DBC22E26AC244AD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Environmental Justice May-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A14134265D8DF20068E1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A1413E265D8DF20068E1DB /* ContentView.swift in Sources */,
+				D90196AD265D96FB0033D5CA /* ejTitle.swift in Sources */,
+				D921C85C266AAD0100605956 /* MapView.swift in Sources */,
+				D9DD50D9266D296300F66C97 /* NorthRiver.swift in Sources */,
+				D954B5A5266E718600782ED5 /* CaseRepository.swift in Sources */,
+				D9DD50DB266D297B00F66C97 /* WarrenCounty.swift in Sources */,
+				D9DD50D5266D293E00F66C97 /* LosAlamos.swift in Sources */,
+				D9A1414C265D90B30068E1DB /* ejDefinition.swift in Sources */,
+				D9DD50D7266D294400F66C97 /* Hawkins.swift in Sources */,
+				D9DD50CA266D1E0A00F66C97 /* Cases.swift in Sources */,
+				D9DD50CF266D28E100F66C97 /* CaseCellViewModel.swift in Sources */,
+				D9DD50D3266D293800F66C97 /* Delano.swift in Sources */,
+				D9A1413C265D8DF20068E1DB /* Environmental_Justice_MayApp.swift in Sources */,
+				D99DF5FA266FCA130058A297 /* ImagePicker.swift in Sources */,
+				D9DD50CD266D28D100F66C97 /* CaseListViewModel.swift in Sources */,
+				D921C85E266AAE9200605956 /* USCases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D9A14145265D8DF60068E1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9A14146265D8DF60068E1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9A14148265D8DF60068E1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5687D5EDB59C8BEA3468634E /* Pods-Environmental Justice May.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Environmental Justice May/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C5CMQR2CZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Environmental Justice May/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasha.Environmental-Justice-May";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A14149265D8DF60068E1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39AE438ECB448483FEA1ABE9 /* Pods-Environmental Justice May.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Environmental Justice May/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C5CMQR2CZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Environmental Justice May/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sasha.Environmental-Justice-May";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A14133265D8DF20068E1DB /* Build configuration list for PBXProject "Environmental Justice May" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A14145265D8DF60068E1DB /* Debug */,
+				D9A14146265D8DF60068E1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A14147265D8DF60068E1DB /* Build configuration list for PBXNativeTarget "Environmental Justice May" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A14148265D8DF60068E1DB /* Debug */,
+				D9A14149265D8DF60068E1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A14130265D8DF20068E1DB /* Project object */;
+}
