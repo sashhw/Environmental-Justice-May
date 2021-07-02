@@ -13,7 +13,7 @@ struct ContentView: View {
    
     let mapView = MapView()
     let usCases = USCases()
-    
+    @State var showSignInForm = false
     
     
     var body: some View {
@@ -116,7 +116,13 @@ struct ContentView: View {
                     .frame(width: UIScreen.main.bounds.width-20, alignment: .center)
                     }
                     
-                    
+                    Button(action: { self.showSignInForm.toggle() }) {
+                        Image(systemName: "person.circle")
+                            .foregroundColor(.black)
+                            .opacity(0.4)
+                    }
+                 
+          Spacer()
                     
                     
                     
@@ -137,6 +143,10 @@ struct ContentView: View {
 ) }
 }
 }
+                    .sheet(isPresented: $showSignInForm) {
+                        SignInView()
+                    }
+                    
                 }
             }
         }

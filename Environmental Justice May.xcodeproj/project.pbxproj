@@ -12,6 +12,7 @@
 		D921C85E266AAE9200605956 /* USCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921C85D266AAE9200605956 /* USCases.swift */; };
 		D921C860266AC44F00605956 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D921C85F266AC44F00605956 /* GoogleService-Info.plist */; };
 		D954B5A5266E718600782ED5 /* CaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D954B5A4266E718500782ED5 /* CaseRepository.swift */; };
+		D9946B97268E33D9005760E9 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9946B96268E33D9005760E9 /* SignInWithAppleCoordinator.swift */; };
 		D99DF5FA266FCA130058A297 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99DF5F9266FCA130058A297 /* ImagePicker.swift */; };
 		D9A1413C265D8DF20068E1DB /* Environmental_Justice_MayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1413B265D8DF20068E1DB /* Environmental_Justice_MayApp.swift */; };
 		D9A1413E265D8DF20068E1DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A1413D265D8DF20068E1DB /* ContentView.swift */; };
@@ -21,8 +22,8 @@
 		D9DD50CA266D1E0A00F66C97 /* Cases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50C9266D1E0A00F66C97 /* Cases.swift */; };
 		D9DD50CD266D28D100F66C97 /* CaseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50CC266D28D100F66C97 /* CaseListViewModel.swift */; };
 		D9DD50CF266D28E100F66C97 /* CaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50CE266D28E100F66C97 /* CaseCellViewModel.swift */; };
-		D9DD50D3266D293800F66C97 /* Delano.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D2266D293800F66C97 /* Delano.swift */; };
-		D9DD50D5266D293E00F66C97 /* LosAlamos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D4266D293E00F66C97 /* LosAlamos.swift */; };
+		D9DD50D3266D293800F66C97 /* SignInWithApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D2266D293800F66C97 /* SignInWithApple.swift */; };
+		D9DD50D5266D293E00F66C97 /* SIgnInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D4266D293E00F66C97 /* SIgnInView.swift */; };
 		D9DD50D7266D294400F66C97 /* Hawkins.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D6266D294400F66C97 /* Hawkins.swift */; };
 		D9DD50D9266D296300F66C97 /* NorthRiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50D8266D296300F66C97 /* NorthRiver.swift */; };
 		D9DD50DB266D297B00F66C97 /* WarrenCounty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */; };
@@ -38,6 +39,8 @@
 		D921C85D266AAE9200605956 /* USCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USCases.swift; sourceTree = "<group>"; };
 		D921C85F266AC44F00605956 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D954B5A4266E718500782ED5 /* CaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseRepository.swift; sourceTree = "<group>"; };
+		D9946B96268E33D9005760E9 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		D9946B98268E3A25005760E9 /* Environmental Justice May.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Environmental Justice May.entitlements"; sourceTree = "<group>"; };
 		D99DF5F9266FCA130058A297 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D9A14138265D8DF20068E1DB /* Environmental Justice May.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Environmental Justice May.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A1413B265D8DF20068E1DB /* Environmental_Justice_MayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environmental_Justice_MayApp.swift; sourceTree = "<group>"; };
@@ -49,8 +52,8 @@
 		D9DD50C9266D1E0A00F66C97 /* Cases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cases.swift; sourceTree = "<group>"; };
 		D9DD50CC266D28D100F66C97 /* CaseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseListViewModel.swift; sourceTree = "<group>"; };
 		D9DD50CE266D28E100F66C97 /* CaseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaseCellViewModel.swift; sourceTree = "<group>"; };
-		D9DD50D2266D293800F66C97 /* Delano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delano.swift; sourceTree = "<group>"; };
-		D9DD50D4266D293E00F66C97 /* LosAlamos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LosAlamos.swift; sourceTree = "<group>"; };
+		D9DD50D2266D293800F66C97 /* SignInWithApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithApple.swift; sourceTree = "<group>"; };
+		D9DD50D4266D293E00F66C97 /* SIgnInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnInView.swift; sourceTree = "<group>"; };
 		D9DD50D6266D294400F66C97 /* Hawkins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hawkins.swift; sourceTree = "<group>"; };
 		D9DD50D8266D296300F66C97 /* NorthRiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthRiver.swift; sourceTree = "<group>"; };
 		D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrenCounty.swift; sourceTree = "<group>"; };
@@ -93,6 +96,14 @@
 			path = Repositories;
 			sourceTree = "<group>";
 		};
+		D9946B95268E33C0005760E9 /* Services  */ = {
+			isa = PBXGroup;
+			children = (
+				D9946B96268E33D9005760E9 /* SignInWithAppleCoordinator.swift */,
+			);
+			path = "Services ";
+			sourceTree = "<group>";
+		};
 		D9A1412F265D8DF20068E1DB = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +125,8 @@
 		D9A1413A265D8DF20068E1DB /* Environmental Justice May */ = {
 			isa = PBXGroup;
 			children = (
+				D9946B98268E3A25005760E9 /* Environmental Justice May.entitlements */,
+				D9946B95268E33C0005760E9 /* Services  */,
 				D954B5A6266E718B00782ED5 /* Repositories */,
 				D9A1414E265D90B90068E1DB /* Model */,
 				D9DD50CB266D28BC00F66C97 /* ViewModel */,
@@ -149,8 +162,8 @@
 			children = (
 				D9A1413D265D8DF20068E1DB /* ContentView.swift */,
 				D921C85D266AAE9200605956 /* USCases.swift */,
-				D9DD50D4266D293E00F66C97 /* LosAlamos.swift */,
-				D9DD50D2266D293800F66C97 /* Delano.swift */,
+				D9DD50D4266D293E00F66C97 /* SIgnInView.swift */,
+				D9DD50D2266D293800F66C97 /* SignInWithApple.swift */,
 				D9DD50D6266D294400F66C97 /* Hawkins.swift */,
 				D9DD50DA266D297B00F66C97 /* WarrenCounty.swift */,
 				D9DD50D8266D296300F66C97 /* NorthRiver.swift */,
@@ -290,14 +303,15 @@
 				D9DD50D9266D296300F66C97 /* NorthRiver.swift in Sources */,
 				D954B5A5266E718600782ED5 /* CaseRepository.swift in Sources */,
 				D9DD50DB266D297B00F66C97 /* WarrenCounty.swift in Sources */,
-				D9DD50D5266D293E00F66C97 /* LosAlamos.swift in Sources */,
+				D9DD50D5266D293E00F66C97 /* SIgnInView.swift in Sources */,
 				D9A1414C265D90B30068E1DB /* ejDefinition.swift in Sources */,
 				D9DD50D7266D294400F66C97 /* Hawkins.swift in Sources */,
 				D9DD50CA266D1E0A00F66C97 /* Cases.swift in Sources */,
 				D9DD50CF266D28E100F66C97 /* CaseCellViewModel.swift in Sources */,
-				D9DD50D3266D293800F66C97 /* Delano.swift in Sources */,
+				D9DD50D3266D293800F66C97 /* SignInWithApple.swift in Sources */,
 				D9A1413C265D8DF20068E1DB /* Environmental_Justice_MayApp.swift in Sources */,
 				D99DF5FA266FCA130058A297 /* ImagePicker.swift in Sources */,
+				D9946B97268E33D9005760E9 /* SignInWithAppleCoordinator.swift in Sources */,
 				D9DD50CD266D28D100F66C97 /* CaseListViewModel.swift in Sources */,
 				D921C85E266AAE9200605956 /* USCases.swift in Sources */,
 			);
@@ -428,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Environmental Justice May/Environmental Justice May.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Environmental Justice May/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C5CMQR2CZ;
@@ -451,6 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Environmental Justice May/Environmental Justice May.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Environmental Justice May/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C5CMQR2CZ;
